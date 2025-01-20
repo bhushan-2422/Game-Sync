@@ -1,0 +1,30 @@
+body{
+    align-items: center;
+    min-height: 100vh;
+    
+    display: flex;
+   justify-content:center;
+}
+.box{
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+#email{
+    margin-bottom: 5%;
+}
+.login{
+    text-align: center;
+}
+.rem-for{
+    font-size: small;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+#forget{
+    font-size: small;
+    margin-left: 10%;
+}
+.login{
+    width: 400px;
+}
