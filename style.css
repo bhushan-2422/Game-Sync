@@ -75,7 +75,7 @@ a{
 #contactButton{
     display: inline-block;
 }
-.contactButton:hover #contactButton{
+.leftbutton:hover #contactButton{
     transform: scale(1.1);
     transition-duration: 200ms;
     background-color: rgb(144, 115, 202);

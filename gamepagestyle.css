@@ -5,6 +5,7 @@ body{
     align-items: center;
     margin: 0px;
     
+    
 }
 /* .navbar{
     width: 100%;
@@ -33,7 +34,7 @@ body{
     align-items: center;
     justify-content:space-between;
     padding:0px 60px;
-    background-color: rgb(55, 55, 55);
+    background-color: rgb(0, 0, 0);
 
 }
 a{
@@ -78,7 +79,7 @@ a{
     font-size: 30px ;
     color: white;
 }
-#contactButton{
+/*#contactButton{
     border: 2px solid black;
     padding: 3px 10px;
     padding-bottom: 5px;
@@ -98,7 +99,7 @@ a{
     transition-duration: 200ms;
     background-color: rgb(144, 115, 202);
     
-}
+}*/
 
 .menuButton{
     position: absolute;
@@ -139,9 +140,11 @@ a{
     flex-direction: column;
     align-items: center;
     background-color: rgb(55, 55, 55);
-    margin-top: 120px;
+    margin-top: 0 px;
     gap: 20px;
     color:white;
+    background: url(images/bggamepage.jpg) no-repeat;
+    background-position: center;
     
 }
 .feature-content{
@@ -175,7 +178,7 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 1.5rem;
+    border-radius:1.5rem;
 }
 .icon-image{
     width: 2rem;
@@ -197,7 +200,7 @@ a{
 .card-info{
     height: 60%;
     margin: 1rem;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -205,23 +208,35 @@ a{
     gap: 1rem; 
 }
 .feature-card:nth-child(1){
-    background-color: #4a90e2;
+    background-color:transparent;
+    backdrop-filter:blur(20px) ;
+    
 }
 
 .feature-card:nth-child(2){
-    background-color: #d94949e0;
+    background-color:transparent;
+    backdrop-filter:blur(40px) ;
+    
 }
 .feature-card:nth-child(3){
-    background-color: #67ca2e;
+    background-color:transparent;
+    backdrop-filter:blur(40px) ;
+    
 }
 .feature-card:nth-child(4){
-    background-color: #d3cb5a;
+    background-color:transparent;
+    backdrop-filter:blur(40px) ;
+    
 }
 .feature-card:nth-child(5){
-    background-color: #5d9eb0;
+    background-color:transparent;
+    backdrop-filter:blur(40px) ;
+    
 }
 .feature-card:nth-child(6){
-    background-color: #ca87ce;
+    background-color:transparent;
+    backdrop-filter:blur(40px) ;
+    
 }
 @media screen and (max-width:900px){
     .feature-grid{
