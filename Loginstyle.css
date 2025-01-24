@@ -4,27 +4,51 @@ body{
     
     display: flex;
    justify-content:center;
+   background: url(images/bglogin.jpg) no-repeat;
+   background-position: center;
+  
 }
-.box{
-    margin-top: 10%;
-    margin-bottom: 10%;
-}
-#email{
+.box input{
     margin-bottom: 5%;
+    width: 60%;
+    height: 40px;
+    border-radius: 40px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgb(255,255,255 ,.2);
+    color: white;
+}    
+.box input::placeholder{
+    color: white;
 }
+   
 .login{
+color: white;
+    width: 400px;
     text-align: center;
+    border: 1px solid rgb(255,255,255 ,.2);
+    backdrop-filter: blur(10px);
+    background: transparent;
+    border-radius: 40px;
+   
 }
 .rem-for{
-    font-size: small;
+    font-size: medium;
     margin-top: 10%;
     margin-bottom: 10%;
 }
 
 #forget{
-    font-size: small;
+    font-size: medium;
     margin-left: 10%;
+    color: white;
 }
-.login{
-    width: 400px;
+button{
+    height: 40px;
+    background-color:rgb(247, 247, 247);
+    width: 80%;
+    border-radius: 50px;
+    margin-bottom: 20px
 }
+
