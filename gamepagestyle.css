@@ -54,6 +54,11 @@ a{
     font-family: monospace;
     font-style: normal;
     color: white;
+    
+}
+.navoptions:hover {
+    transform: scale(1.1);
+    transition-duration: 200ms;
 }
 
 *{
