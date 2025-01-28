@@ -58,7 +58,8 @@ a{
 }
 .navoptions:hover {
     transform: scale(1.1);
-    transition-duration: 200ms;
+    transition-duration: 100ms;
+    border-color: white;
 }
 
 *{
